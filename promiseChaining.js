@@ -1,0 +1,1 @@
+let promse= new Promise((res,rej)=>{})
