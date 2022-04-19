@@ -1,28 +1,29 @@
 //1
+
 let toggle=false;
 
-const func=()=>{
+const Toggle=()=>{
    toggle=true;
 }
 
-func();
+Toggle();
 
 console.log(toggle===false ?"Toggle False":"Toggle True")
 
 
 
 //2
-let n=10;
+let num=10;
 
-let obj1={
+let object1={
     a:10,
-    b:()=>{console.log(this.n); //undefined as arrow doesn't possess power of this
-     console.log(this.a); //undefined as arrow doesn't possess power of this 
+    b:()=>{console.log(this.num);
+     console.log(this.a); 
     },
-    c:function(){console.log(this.n); //undefined as variable ain't defined within scope of the object obj1
+    c:function(){console.log(this.num); 
      console.log(this.a); 
     }
 }
 
-obj1.b(); // arrow function
-obj1.c(); // normal function
+object1.b(); // arrow function
+object1.c(); // normal function
