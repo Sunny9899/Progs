@@ -1,5 +1,26 @@
 //spread optr to create new object
 
+/* In typescript
+
+let object:{
+    num:number;
+    price:number;
+    name:number;
+}={
+    num:1,
+    price:2,
+    name:3
+}
+
+let newKey:{
+    new:number;
+}={new:234};
+object={...object,...newKey};
+console.log(object);
+
+*/
+
+
 //1
 let obj1={
     "k1":"v1",

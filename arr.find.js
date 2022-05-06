@@ -15,3 +15,11 @@ function  see(n){
     return n.num===345;
 }
 console.log(arr2.find(see));
+/*
+const answer=arr2.find((n)=>{
+    if(n.num===345){
+        return n;
+    }
+})
+console.log(answer);
+*/

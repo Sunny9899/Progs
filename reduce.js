@@ -2,7 +2,8 @@ let arr=[1,2,4,5,10];
 
 let tot=1;
 
-var sum=arr.reduce((tot,val)=>{
+var sum=arr.reduce((tot,val,i)=>{
+    console.log("i"+i);
     return (tot+val);
 })
 

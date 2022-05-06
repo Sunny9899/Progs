@@ -1,3 +1,10 @@
+/* In Typescript
+let array=[1,2,3,4,9];
+let arr=[5,6,7,8];
+array=[1,2,3,4,...arr,9];
+console.log(array);
+*/
+
 //1
 let inpt=[1,2,3,4,5];
 
